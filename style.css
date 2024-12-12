@@ -1,0 +1,18 @@
+/* FILEPATH: /Users/apple/github_action/style.css */
+
+/* Reset default styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add your custom styles here */
+/* FILEPATH: /Users/apple/github_action/style.css */
+
+/* Reset default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add your custom styles here */
