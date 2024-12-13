@@ -1,0 +1,13 @@
+name: Second Workflow
+on: workflow_dispatch
+jobs:
+  second-job-cmd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: |
+          echo "First output"
+          ls -l
+      - name: Print second
+        run: 
+          pwd
