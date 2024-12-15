@@ -11,3 +11,13 @@ jobs:
       - name: Print second
         run: 
           pwd
+  deplyment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: |
+          echo "First output"
+          ls -l
+      - name: Print second
+        run: 
+          pwd
